@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>small corridor big world</title>
+    <link rel="stylesheet" href="css/corridor.css">
+  </head>
+  <body>
+    <audio src="music/Trip.mp3" autoplay="autoplay" loop="loop"></audio>
+    <div id="username_input">
+      <input id="pls" type="text" placeholder="请输入用户名" name="username" maxLength="10" autocomplete="off" onkeypress="if(event.keyCode==13){if(alert_flag==0)log_btn_click(); return 0;}"/>
+    </div>
+    <div id="info_box">
+        <div id="tips">
+            <p>按键提示:<br />Z/H抓小偷<br />X/J捡物品<br />C/K递交钱包<br />V/L扶老人小孩下楼梯<br />space键和邻居打招呼</p></div>
+        <div id="game_info">
+            <p id="in_fop"><br /></p>
+        </div>
+    </div>
+    <canvas id='canvas' width='1024' height='768'>Canvas not supported
+    </canvas>
+    <canvas id='canvas1' width='1024' height='768'>Canvas not supported
+    </canvas>
+    <script src='js/lib/requestNextAnimationFrame.js'></script>
+    <script src='js/lib/jquery.js'></script>
+    <script src="js/lib/alert.js"></script>
+    <script src="js/behavior_init.js"></script>
+    <script src="js/username_test.js"></script>
+    <script src="js/count_down.js"></script>
+    <script src="js/game_board.js"></script>
+    <script src="js/neighbor.js"></script>
+    <script src="js/behavior.js"></script>
+    <script src='js/openning.js'></script>
+    <script src="js/init.js"></script>
+  </body>
+</html>

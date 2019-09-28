@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'DIGITAL-Regular';
+    src:url('../fonts/DIGITAL-Regular.ttf');
+}
+canvas{
+    background: #eee;
+    box-shadow: 2px 2px 15px #000;
+    border-radius: 20px;
+}
+#canvas1{
+    display: none;
+}
+#username_input{
+    position: absolute;
+    left: 410px;
+    top: 337px;
+    display: none;
+}
+input{
+    border: none;
+    width: 265px;
+    height: 67px;
+    font-size: 22px;
+    text-indent: 2em;
+    line-height: 67px;
+}
+#info_box{
+    position: absolute;
+    left: 882px;
+    top: 350px;
+    width: 143px;
+    height: 420px;
+    border-radius: 0 0 28px 28px;
+    display: none;
+    cursor: default;
+}
+#tips p{
+    padding: 10px 5px 10px 10px;
+    margin: 0;
+    font-family: 'SimHei';
+    font-size: 1.1em;
+    color: black;
+    letter-spacing: 1px;
+    border: 1px solid grey;
+    border-bottom: none;
+}
+#game_info{
+    height: 246px;
+    border-radius: 0 0 28px 28px;
+    border: 1px solid grey;
+    overflow: auto;
+}
+#in_fop{
+    margin: 0;
+    font-family: 'SimHei';
+    font-size: 1.1em;
+    padding: 10px 5px 10px 10px;
+    color: black;
+    letter-spacing: 1px;
+}
+::-webkit-scrollbar-track-piece{
+    background-color:#eee;
+    -webkit-border-radius:0;
+}
+::-webkit-scrollbar{
+    width:16px;
+    height:8px;
+}
+::-webkit-scrollbar-thumb{
+    height:50px;
+    background-color:#999;
+    -webkit-border-radius:4px;
+    outline:2px solid #fff;
+    outline-offset:-2px;
+    border: 2px solid #fff;
+}
+::-webkit-scrollbar-thumb:hover{
+    height:50px;
+    background-color:#9f9f9f;
+    -webkit-border-radius:4px;
+}
